@@ -1,0 +1,218 @@
+﻿/*
+ Design Originally by Metamorphosis Design
+ Modify by Abraham
+ Email:abraham1@163.com
+ QQ:380850433
+ Released for free under a Creative Commons Attribution 2.5 License
+ */ * {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a:link {
+    color: #30A6D1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited {
+    color: #30A6D1;
+}
+
+body {
+    background: #000000 url(images/back_all.jpg) no-repeat;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #383838;
+    margin-top: 20px;
+}
+
+#content {
+    width: 733px;
+    margin: 0px auto;
+}
+
+#main {
+    width: 733px;
+    height: 14px;
+    background: url(images/top.png) no-repeat;
+}
+
+#back {
+    width: 733px;
+    background: url(images/back.png) repeat-y;
+}
+
+#bottom {
+    width: 733px;
+    height: 20px;
+    background: url(images/bottom.png) no-repeat;
+}
+
+#header {
+    height: 243px;
+    text-align: right;
+}
+
+#logo {
+    background: url(images/3.jpg) no-repeat;
+    width: 713px;
+    height: 223px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#logo H2 a {
+    font-size: 12px;
+}
+
+#news li a {
+    background: url(images/pen.png) no-repeat;
+    padding-left: 15px;
+    padding-top: -1px;
+}
+
+.title_back div img {
+    position: relative;
+    left: 160px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#left h3 {
+    font-weight: bolder;
+    display: inline-block;
+    color: black;
+}
+
+.bot {
+    padding: 10px;
+}
+
+#left {
+    width: 710px;
+    margin-left: 20px;
+}
+
+#left H4 {
+    margin: 0;
+    padding: 0px;
+    font-size: 12px;
+    color: #30A6D1;
+}
+
+#left a {
+    color: #30A6D1;
+    text-decoration: none;
+}
+
+#left p {
+    margin: 5px;
+    padding: 0;
+}
+
+#left h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color: #30A6D1;
+}
+
+#footer {
+    height: 44px;
+    clear: both;
+    padding-top: 30px;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a {
+    font-size: 13px;
+    color: #cecc9c;
+}
+
+#back h2 {
+    text-align: center;
+    color: blue;
+}
+
+#logo h1, #logo h2 {
+    display: none;
+}
+
+#extra1 {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    width: 300px;
+    height: 200px;
+    background: url('images/2beeman.png') no-repeat;
+}
+
+.feed {
+    width: 100%;
+	height:700px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.feedTitle {
+    background: url(images/htitle.png) no-repeat;
+    width: 733px;
+    height: 38px;
+    padding-left: 15px;
+    color: white;
+    line-height: 38px;
+}
+
+.feedList {
+    padding: 3px;
+    margin: 0px;
+	list-style:none;
+}
+
+.feedList li.weibo{
+	font-size:28px;
+	font-family:"微软雅黑";
+    background-color:white;
+	margin:5px;
+	-moz-border-radius:9px;
+	line-height:65px;
+	border:1px solid blue;
+	padding:0 20px;
+}
+
+.feedList li .weibo_user{
+	color:#fa8a05;
+}
+
+.feedList li .weibo_content{
+	color:#000;
+}
+.feedList li .weibo_speak{
+	display:inline-block;
+	width:66px;
+	height:31px;
+	background:url('images/speak.png');
+	position:relative;
+	top:10px;
+	margin:0 8px;
+}
+
